@@ -1,0 +1,18 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+  datasource:
+    username: air_pollution
+    password: qwe!@#123
+    url: jdbc:postgresql://localhost:5432/air_pollution
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+
